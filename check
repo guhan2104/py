@@ -1,0 +1,8 @@
+list1 = [1,2,3,4]
+print ("The length of list is : ", end="") 
+print (len(list1))
+num = input("enter the number: ")
+if num in list1:
+    print ("number is there")
+else:
+    print ("no is not there")
